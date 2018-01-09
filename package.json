@@ -1,7 +1,7 @@
 {
   "name": "mc-format",
   "version": "1.0.0",
-  "description": "a custom elements that formats text with the minecraft formating codes",
+  "description": "a webcomponent that formats text with the minecraft formatting codes",
   "main": "mc-format.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
