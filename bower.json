@@ -1,0 +1,5 @@
+{
+  "name": "mc-format",
+  "description": "Formats a given text according to the minecraft formating rules",
+  "main": "mc-format.js"
+}

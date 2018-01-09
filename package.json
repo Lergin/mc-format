@@ -1,0 +1,19 @@
+{
+  "name": "mc-format",
+  "version": "1.0.0",
+  "description": "a custom elements that formats text with the minecraft formating codes",
+  "main": "mc-format.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webcomponents",
+    "minecraft",
+    "customelements",
+    "elements",
+    "web-components",
+    "components"
+  ],
+  "author": "Malte Laukötter",
+  "license": "MIT"
+}
