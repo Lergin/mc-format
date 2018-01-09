@@ -26,7 +26,7 @@ template.innerHTML = `
       width: 1em;
       text-align: center;
     }
-    .format_l { font-weight: bold; }
+    .format_l { font-weight: bolder; }
     .format_m { text-decoration: line-through; }
     .format_n { text-decoration: underline; }
     .format_o { font-style: italic; }
