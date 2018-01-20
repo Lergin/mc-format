@@ -1,6 +1,6 @@
 {
   "name": "mc-format",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "a webcomponent that formats text with the minecraft formatting codes",
   "main": "mc-format.js",
   "scripts": {

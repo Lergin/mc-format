@@ -4,22 +4,22 @@ template.innerHTML = `
     :host {
     }
 
-    .format_0 { color: #000; }
-    .format_1 { color: #00A; }
-    .format_2 { color: #0A0; }
-    .format_3 { color: #0AA; }
-    .format_4 { color: #A00; }
-    .format_5 { color: #A0A; }
-    .format_6 { color: #FA0; }
-    .format_7 { color: #AAA; }
-    .format_8 { color: #555; }
-    .format_9 { color: #55F; }
-    .format_a { color: #5F5; }
-    .format_b { color: #5FF; }
-    .format_c { color: #F55; }
-    .format_d { color: #F5F; }
-    .format_e { color: #FF5; }
-    .format_f { color: #FFF; }
+    .format_0 { color: var(--mc-format-0, #000); }
+    .format_1 { color: var(--mc-format-1, #00A); }
+    .format_2 { color: var(--mc-format-2, #0A0); }
+    .format_3 { color: var(--mc-format-3, #0AA); }
+    .format_4 { color: var(--mc-format-4, #A00); }
+    .format_5 { color: var(--mc-format-5, #A0A); }
+    .format_6 { color: var(--mc-format-6, #FA0); }
+    .format_7 { color: var(--mc-format-7, #AAA); }
+    .format_8 { color: var(--mc-format-8, #555); }
+    .format_9 { color: var(--mc-format-9, #55F); }
+    .format_a { color: var(--mc-format-a, #5F5); }
+    .format_b { color: var(--mc-format-b, #5FF); }
+    .format_c { color: var(--mc-format-c, #F55); }
+    .format_d { color: var(--mc-format-d, #F5F); }
+    .format_e { color: var(--mc-format-e, #FF5); }
+    .format_f { color: var(--mc-format-f, #FFF); }
 
     mc-obfuscated-char { 
       display: inline-block;
@@ -87,7 +87,7 @@ function parseFormatWithoutResets(text, obfuscated=false) {
         span.appendChild(document.createElement('mc-obfuscated-char'));
       }
     }else{
-      const span2 = document.createElement(obfuscated ? 'mc-obfuscated-char' : 'span');
+      const span2 = document.createElement('span');
       span2.innerHTML = head;
       span.appendChild(span2);
     }
